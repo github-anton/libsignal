@@ -6,7 +6,8 @@
  */
 
 
-#include "dft.h"
+#include "signal/dft.h"
+
 #include <math.h>
 
 // INPUT: Z[] - real and imaginary parts of the signal in the frequency domain

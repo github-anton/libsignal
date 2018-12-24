@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <complex.h>
 
-#include "config.h"
+#include <signal/config.h>
 
 int idft(FP_TYPE complex Z[], FP_TYPE x[], size_t N) ;
 

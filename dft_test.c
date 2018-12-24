@@ -4,8 +4,8 @@
  *  Created on: 28 нояб. 2018 г.
  *      Author: anton
  */
-#include "vector.h"
-#include "dft.h"
+#include "signal/vector.h"
+#include "signal/dft.h"
 
 #define WORK_DIR	"Data/"
 #define TIME_LEN	111

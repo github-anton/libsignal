@@ -1,4 +1,4 @@
-#include "vector.h"
+#include "signal/vector.h"
 #include <stdio.h>
 #include <time.h>
 #include <sys/param.h>

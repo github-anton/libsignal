@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <complex.h>
 
-#include "config.h"
+#include <signal/config.h>
 
 int load_vector(char *path, FP_TYPE array[], size_t off, size_t len) ;
 int save_vector(char *path, char *app, char *ver, char *name, FP_TYPE array[], size_t len) ;

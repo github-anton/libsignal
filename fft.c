@@ -3,8 +3,11 @@
  *
  *  Created on: 29 нояб. 2018 г.
  *      Author: anton
+ *
+ *  (C) 2018 Anton Ermakov
  */
-#include "fft.h"
+#include "signal/fft.h"
+
 #include <math.h>
 
 unsigned revbit(unsigned num, int wide) {

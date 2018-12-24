@@ -4,8 +4,8 @@
  *  Created on: 4 дек. 2018 г.
  *      Author: anton
  */
-#include "fft.h"
-#include "vector.h"
+#include "signal/fft.h"
+#include "signal/vector.h"
 
 
 #define WORK_DIR	"Data/"

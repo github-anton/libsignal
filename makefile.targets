@@ -1,0 +1,5 @@
+cleanprog:
+	for file in *.mk; do \
+		make clean -f $${file} 2>/dev/null ; true ; \
+	done
+	

@@ -4,7 +4,7 @@
  *  Created on: 11 дек. 2018 г.
  *      Author: anton
  */
-#include "vector.h"
+#include "signal/vector.h"
 #include <stdio.h>
 
 #define WORK_DIR	"Data/"
@@ -20,6 +20,8 @@ int main(void) {
 	fp = fopen(WORK_DIR "x.h", "w+") ;
 	fprintf(fp, "#ifndef X_H_\n"
 				"#define X_H_\n"
+				"\n"
+				"#include <signal/config.h>\n"
 				"\n"
 				"extern FP_TYPE x[%i] ;\n"
 				"\n"

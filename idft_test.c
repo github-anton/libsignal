@@ -4,8 +4,8 @@
  *  Created on: 27 нояб. 2018 г.
  *      Author: anton
  */
-#include "vector.h"
-#include "dft.h"
+#include "signal/vector.h"
+#include "signal/dft.h"
 
 #define WORK_DIR	"Data/"
 #define FREQ_LEN	56

@@ -20,6 +20,6 @@
 
 #endif
 
-#define VERSION 	"0.11"
+#define VERSION 	"current"
 
 #endif /* CONFIG_H_ */
