@@ -5,6 +5,10 @@
  *      Author: anton
  *
  *  (C) 2018 Anton Ermakov
+ *
+ *  The revbit() was given from
+ *  https://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/
+ *  and modified. The ifft() was given from www.dspguide.com and modified.
  */
 #include "signal/fft.h"
 
@@ -59,7 +63,7 @@ int ifft(FP_TYPE complex Z[], size_t N, FP_TYPE complex x[]) {
 
 	// Initialize x[]
 	for(int i = 0; i < N; i++) {
-		x[i] = conj(Z[i]) ;		// Change sign if imag(Z[])
+		x[i] = conj(Z[i]) ;			// Change sign if imag(Z[])
 	}
 
 	fft(x, N, x) ;		// Calculate forward FFT
