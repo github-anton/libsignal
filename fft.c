@@ -2,8 +2,6 @@
  * fft.c
  *
  *  Created on: 29 нояб. 2018 г.
- *      Author: anton
- *
  *  (C) 2018 Anton Ermakov
  *
  *  The revbit() was given from
@@ -11,8 +9,7 @@
  *  and modified. The ifft() was given from www.dspguide.com and modified.
  */
 #include "signal/fft.h"
-
-#include <math.h>
+#include "signal/trig.h"
 
 unsigned revbit(unsigned num, int wide) {
     unsigned rnum = 0 ;
@@ -63,7 +60,7 @@ int ifft(FP_TYPE complex Z[], size_t N, FP_TYPE complex x[]) {
 
 	// Initialize x[]
 	for(int i = 0; i < N; i++) {
-		x[i] = conj(Z[i]) ;			// Change sign if imag(Z[])
+		x[i] = conj(Z[i]) ;		// Change sign if imag(Z[])
 	}
 
 	fft(x, N, x) ;		// Calculate forward FFT

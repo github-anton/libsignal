@@ -3,8 +3,6 @@
  *
  *  Created on: 29 нояб. 2018 г.
  *      Author: anton
- *
- *  (C) 2018 Anton Ermakov
  */
 
 #ifndef FFT_H_

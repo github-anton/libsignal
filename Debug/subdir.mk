@@ -7,18 +7,21 @@ C_SRCS += \
 ../conv.c \
 ../dft.c \
 ../fft.c \
+../trig.c \
 ../vector.c 
 
 OBJS += \
 ./conv.o \
 ./dft.o \
 ./fft.o \
+./trig.o \
 ./vector.o 
 
 C_DEPS += \
 ./conv.d \
 ./dft.d \
 ./fft.d \
+./trig.d \
 ./vector.d 
 
 

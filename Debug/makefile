@@ -39,7 +39,7 @@ clean:
 	-@echo ' '
 
 post-build:
-	-make -f fft_test.mk && make -f ifft_test.mk && make -f dft_test.mk && make -f idft_test.mk && make -f mk_src_signal.mk
+	-make -f fft_test.mk ; make -f ifft_test.mk ; make -f dft_test.mk ; make -f idft_test.mk ; make -f mk_src_signal.mk ; make -f trig_test.mk
 	-@echo ' '
 
 .PHONY: all clean dependents post-build

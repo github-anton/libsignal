@@ -7,8 +7,7 @@
 
 
 #include "signal/dft.h"
-
-#include <math.h>
+#include "signal/trig.h"
 
 // INPUT: Z[] - real and imaginary parts of the signal in the frequency domain
 // OUTPUT: x[] - the signal we will get into the time domain
